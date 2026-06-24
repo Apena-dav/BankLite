@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+body{
+    background-color: #0A0D1A;
+    font-family: 'Inter', sans-serif;
+}
+#text{
+    font-size: 1em;
+    color: #bbc0d4;
+    margin-bottom: -10px;
+}
+h2{
+    font-size: 2.5em;
+    font-family:'JetBrains Mono';
+    margin: 0px -7px 0px -20px;
+    color: white
+}
+.label{
+    padding-left: 50px;
+}
+p{
+    color: #bbc0d4;
+    font-size: 1.2em;
+}
+h3{
+    color: #eaecf4;
+    font-size: 1.8em;
+}
+#welcome{
+    text-align: left;
+    margin: 20px;
+    padding-top: 10px;
+  
+}
+#profile{
+    background: linear-gradient(to right, rgb(59, 123, 255), #7B5FFF);
+    height: 50%;
+    margin-right: 3%;
+}
+img{
+    width: 2.5em;
+    height: 2.5em;
+    margin: 20px;
+    padding-top: 30px;
+}
+#personaldets{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#accountinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-start;
+    background-color: #a7a9af;
+    background: rgba(59, 123, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+    max-width: 600px;
+    max-height: 300px;
+    margin: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#actions{
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    margin-top: -35px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.actimg{
+    margin-bottom: -20px;
+    
+}
