@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap');
+body{
+    background-color: #0A0D1A;
+    font-family: 'Inter', sans-serif;
+}
+#welcome{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+#logo-box{
+    width: 10em;
+    height: 2.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #3B7BFF;
+    margin-left: 1%;
+    margin-right: 99%;
+}
+#logo-text{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eaecf4;
+    font-weight: bold;
+    text-align: center;
+}
+#text{
+    font-size: 1.3em;
+}
+img{
+    width: 5em;
+    height: 5em;
+}
+P{
+    color: #7B82A0
+}
+h1{
+    color: #eaecf4;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 2px;
+}
+span{
+    background: linear-gradient(to right, #3B7BFF, #7B5FFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#guest{
+    cursor: pointer;
+}
+#createacc{
+    padding: 2%;
+    padding-left: 15%;
+    color: #eaecf4;
+    padding-right: 15%;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    text-align: center; 
+    margin-bottom: 10px; 
+    background: linear-gradient(to right, #3B7BFF, #7B5FFF);
+    box-shadow: 0px 4px 90px #3B7BFF;;
+}
+#signin{
+    padding: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 20px;
+    text-align: center;
+    border-color: #eaecf4;
+    color: #eaecf4;
+    background-color: #0A0D1A;
+    margin-top: -3px;
+    
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 120px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
